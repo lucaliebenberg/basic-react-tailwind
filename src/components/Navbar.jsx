@@ -17,24 +17,30 @@ const Navbar = () => {
       <div className="mt-auto mb-auto pr-5">
         {/* Desktop */}
         {/* show navigation */}
-        <ul className="hidden md:visible md:flex md:flex-row md:gap-6 md:align-middle ">
+        <ul className="hidden md:visible md:flex md:flex-row md:gap-6 md:align-middle">
           <a
             href="/about"
             className="no-underline text-white hover:cursor-pointer"
           >
-            <li>About</li>
+            <li className="hover:text-orange duration-200 ease-in-out transition-all">
+              About
+            </li>
           </a>
           <a
             href="/work"
             className="no-underline text-white hover:cursor-pointer"
           >
-            <li>Work</li>
+            <li className="hover:text-orange duration-200 ease-in-out transition-all">
+              Work
+            </li>
           </a>
           <a
             href="/contact"
             className="no-underline text-white hover:cursor-pointer"
           >
-            <li>Contact</li>
+            <li className="hover:text-orange duration-200 ease-in-out transition-all">
+              Contact
+            </li>
           </a>
         </ul>
 
